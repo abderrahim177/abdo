@@ -60,10 +60,12 @@ thead th{
    border-radius: 10px;
    color: white;
 }
+
 tbody td{
     background-color: rgb(247, 231, 211);
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 #delete{
 background-color: rgb(236, 12, 12);
@@ -95,41 +97,24 @@ margin: auto;
     align-items: center;
 
 }
-.container{
-    position: absolute;
-    bottom: 0;
-    right: 400px;
-    width: 300px;
-    background-color: rgb(121, 119, 119);
-    padding: 5px;
-    height: 400px;
+#btn{
+    height: 50px;
+}
+.countainer{
     display: flex;
-    flex-direction: column;
     gap: 20px;
-    justify-content: space-around;
-    border-radius: 10px;
+    margin-top: 10px;
 }
-.container input{
-    margin: 10px auto;
-    box-sizing: border-box;
-    background-color: white;
-    width: 90%;
-    height: 40px;
+.countainer input{
+    background-color: rgb(2, 81, 77);
 }
-
-#create_icon{
-    padding: 5px;
-    background-color: #111;
-    color: white;
-   border-radius: 10px;
+.countainer input::placeholder{
+    color: rgb(238, 235, 235);
+}
+.countainer input:hover{
+    background-color: rgb(4, 101, 96);
     cursor: pointer;
 }
-.menu{
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-}
-#delete_menu{
-    position: absolute;
-    display: none;
+#delete_All{
+    background-color: rgb(245, 7, 7);
 }
