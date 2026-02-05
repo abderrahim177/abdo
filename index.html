@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+    <section>
+    <form action="">
+        <input id="First_name" type="text" placeholder="First_name">
+        <input id="last_name" type="text" placeholder="last_name">
+        <input id="age" type="number" placeholder="Age">
+        <button id="btn" type="button">creat</button>
+    </form>
+    <table>
+        <thead>
+         <tr>
+            <th>id</th>
+            <th> First_name</th>
+            <th>last_name</th>
+            <th>age</th>
+            <th>update</th>
+            <th>delete</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td></td>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td id="update">update</td>
+                <td id="delete">delete 🗑</td>
+            </tr>
+        </tbody>
+        
+    </table>    
+    </section>
+    <section id="hero_section">
+        <div class="icon"><i id="create_icon" class="fa-solid fa-plus"></i></div>
+        <div class="container">
+            <input type="text" placeholder="title">
+            <input type="text" placeholder="description">
+            <input type="image" placeholder="photo">
+            <button>creat</button>
+        </div>
+        <article id="content">
+                <div>   
+                    <img id="image" src="" >
+                </div>
+            <div>
+                <h3 id="title"></h3>
+                <p id="paragraph"></p>
+            </div>
+                
+        </article>
+        <div class="menu">
+        <i id="delete_menu" class="fa-solid fa-xmark"></i>
+        <i id="add_menu" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
